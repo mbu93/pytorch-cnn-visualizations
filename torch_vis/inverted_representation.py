@@ -8,7 +8,7 @@ from torch.autograd import Variable
 from torch.optim import SGD
 import os
 
-from misc_functions import get_example_params, recreate_image, save_image
+from .misc_functions import get_example_params, recreate_image, save_image
 
 
 class InvertedRepresentation():

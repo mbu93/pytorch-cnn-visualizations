@@ -8,10 +8,10 @@ import numpy as np
 from torch.autograd import Variable
 import torch
 
-from misc_functions import (get_example_params,
+from .misc_functions import (get_example_params,
                             convert_to_grayscale,
                             save_gradient_images)
-from vanilla_backprop import VanillaBackprop
+from .vanilla_backprop import VanillaBackprop
 # from guided_backprop import GuidedBackprop  # To use with guided backprop
 
 

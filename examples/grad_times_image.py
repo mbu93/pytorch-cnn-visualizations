@@ -3,10 +3,10 @@ Created on Wed Jun 19 17:12:04 2019
 
 @author: Utku Ozbulak - github.com/utkuozbulak
 """
-from misc_functions import (get_example_params,
+from torch_vis import (get_example_params,
                             convert_to_grayscale,
                             save_gradient_images)
-from vanilla_backprop import VanillaBackprop
+from torch_vis import VanillaBackprop
 # from guided_backprop import GuidedBackprop  # To use with guided backprop
 # from integrated_gradients import IntegratedGradients  # To use with integrated grads
 
